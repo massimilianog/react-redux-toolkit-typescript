@@ -1,6 +1,6 @@
 # react-redux-toolkit-typescript
 
-## A simple application demonstrating a patterns when using React, Redux, Redux Toolkit and TypeScript
+## A simple application demonstrating common patterns when using React, Redux, Redux Toolkit and TypeScript
 
 The application uses redux to manage the state along with Redux Toolkit.\
 It runs on port 3000 and makes http request against a mock serving a simple REST API on port 3005.
