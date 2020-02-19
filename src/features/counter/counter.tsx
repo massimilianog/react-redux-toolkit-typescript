@@ -19,7 +19,7 @@ const Counter = ({ count, increment, decrement }: Props) => {
 
     return (
         <div className="hello">
-            <div className="greeting">Counter: {count}</div>
+            <div>Counter: {count}</div>
             <div>
                 <button onClick={onDecrement}>-</button>
                 <button onClick={onIncrement}>+</button>

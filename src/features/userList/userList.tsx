@@ -32,8 +32,8 @@ const UserList = () => {
         );
     }
     return (
-        <div style={{ textAlign: 'center' }}>
-            <p style={{ fontSize: '40px' }}>User List:</p>
+        <div className="hello">
+            <p>User List:</p>
             {users.map(user => (
                 <div key={user.id}>{user.name}</div>
             ))}
